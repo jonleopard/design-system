@@ -15,7 +15,6 @@
   "devDependencies": {
     "@storybook/addon-info": "^3.4.8",
     "@storybook/react": "^3.4.8",
-    "@storybook/storybook-deployer": "^2.3.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^23.4.0",
