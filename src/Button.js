@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import { space } from 'styled-system'
-import theme from './theme'
+import theme, {cx, hexa} from './theme'
 
 const size = props => {
   switch (props.size) {
@@ -41,18 +41,24 @@ const Button = styled.button`
   line-height: 1.5;
   cursor: pointer;
   border-radius: ${props => props.theme.radius};
+  box-shadow: 0 2px 4px ${props => props.theme.shadowColor};
   background-color: ${props => props.theme.colors.base};
   color: ${props => props.theme.colors.white};
   border-width: 0;
   border-style: solid;
 
-  &:disabled {
-    opacity: 0.25;
-  }
+  ${props =>
+    props.inverted && {
+      backgroundColor: cx(props.color),
+      color: cx(props.bg)
+    }};
 
-  &:hover {
-    background-color: ${props =>
-      props.disabled ? null : props.theme.colors.darkBlue};
+  ${props => props.disabled && { opacity: 0.25, cursor: 'not-allowed' }};
+
+  &:hover, &:focus {
+    outline: 0;
+    box-shadow: 0 2px 6px ${props =>
+      props.inverted ? props.theme.shadowColor : hexa(props.bg, 0.25)};
   }
 
   ${fullWidth} ${size} ${space};

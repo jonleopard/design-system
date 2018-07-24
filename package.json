@@ -7,6 +7,7 @@
     "start": "start-storybook -p 8000 -c .storybook",
     "storybook": "build-storybook -c .storybook -o .site/storybook",
     "chromatic": "chromatic test --exit-zero-on-changes --storybook-addon --script-name start",
+    "build": "rm -rf .site && build-storybook -c .storybook -o .site",
     "codecov": "codecov",
     "icons": "node scripts/parse-icons"
   },
@@ -38,9 +39,11 @@
     "svgi": "^1.1.0"
   },
   "dependencies": {
+    "@storybook/cli": "^3.4.8",
     "clean-tag": "^2.0.0",
     "flow": "^0.2.3",
     "global": "^4.3.2",
+    "lodash": "^4.17.10",
     "palx": "^1.0.3",
     "prop-types": "^15.6.2",
     "rc-slider": "^8.6.1",
