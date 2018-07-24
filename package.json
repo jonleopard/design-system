@@ -7,7 +7,7 @@
     "start": "start-storybook -p 8000 -c .storybook",
     "storybook": "build-storybook -c .storybook -o .site/storybook",
     "chromatic": "chromatic test --exit-zero-on-changes --storybook-addon --script-name start",
-    "build": "rm icons.json || npm run icons && rm -rf _site && build-storybook -c .storybook -o _site",
+    "build": "yarn icons && rm -rf _site && build-storybook -c .storybook -o _site",
     "codecov": "codecov",
     "icons": "node scripts/parse-icons"
   },
