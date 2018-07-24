@@ -25,9 +25,9 @@ storiesOf('Text', module)
   ))
   .add('align', () => (
     <div>
-      <Text align="left">Hello Left</Text>
-      <Text align="center">Hello Center</Text>
-      <Text align="right">Hello Right</Text>
+      <Text textAlign="left">Hello Left</Text>
+      <Text textAlign="center">Hello Center</Text>
+      <Text textAlign="right">Hello Right</Text>
     </div>
   ))
   .add('regular', () => <Text regular>Hello Regular</Text>)
@@ -42,7 +42,7 @@ storiesOf('Text', module)
   ))
   .add('color', () => (
     <div>
-      <Text color="blue">Hello Blue</Text>
-      <Text color="green">Hello Green</Text>
+      <Text color="info">Hello Info</Text>
+      <Text color="success">Hello Success</Text>
     </div>
   ))
