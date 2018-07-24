@@ -1,7 +1,5 @@
 # jonleopard.com Design System
 
-[![npm version][npm version]][npm version]
-
 ### npm
 
 ```sh
