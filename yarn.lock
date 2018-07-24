@@ -8364,9 +8364,9 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typeface-libre-baskerville@^0.0.54:
+typeface-libre-franklin@^0.0.54:
   version "0.0.54"
-  resolved "https://registry.yarnpkg.com/typeface-libre-baskerville/-/typeface-libre-baskerville-0.0.54.tgz#4f9fd7e0d0812f73291e70258498d647c3af892d"
+  resolved "https://registry.yarnpkg.com/typeface-libre-franklin/-/typeface-libre-franklin-0.0.54.tgz#bde5607b324ef0eb9ad3d6b1bb9405e4dd74094a"
 
 ua-parser-js@^0.7.18:
   version "0.7.18"

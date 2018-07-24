@@ -47,7 +47,7 @@
     "prop-types": "^15.6.2",
     "rc-slider": "^8.6.1",
     "styled-system": "^3.0.2",
-    "typeface-libre-baskerville": "^0.0.54"
+    "typeface-libre-franklin": "^0.0.54"
   },
   "lint-staged": {
     "*.js": [

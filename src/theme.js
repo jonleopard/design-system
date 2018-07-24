@@ -1,5 +1,7 @@
 import palx from 'palx'
-import LibreBaskerville from 'typeface-libre-baskerville';
+import LibreFranklin from 'typeface-libre-franklin';
+
+console.log(LibreFranklin)
 
 const createMediaQuery = n => `@media screen and (min-width:${n})`
 
@@ -24,7 +26,8 @@ addAliases(mediaQueries, aliases)
 
 export const space = [0, 4, 8, 16, 32, 64, 128]
 
-export const font = `${LibreBaskerville}'Montserrat','Helvetica Neue',Helvetica,Arial,sans-serif`
+const emoji = '"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"'
+export const font = `-apple-system,'Helvetica Neue',BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif,${emoji}`
 
 export const fontSizes = [12, 14, 16, 20, 24, 32, 48]
 
