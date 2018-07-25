@@ -1,7 +1,4 @@
 import palx from 'palx'
-import LibreFranklin from 'typeface-libre-franklin';
-
-console.log(LibreFranklin)
 
 const createMediaQuery = n => `@media screen and (min-width:${n})`
 
@@ -56,7 +53,7 @@ export const grays = {
   silver: palette.gray[7],
   smoke: palette.gray[2],
   snow: palette.gray[0],
-  white: '#ffffff'
+  white: '#fff'
 }
 
 export const brand = {
@@ -74,7 +71,6 @@ export const colors = {
   ...grays,
   ...palette
 }
-
 
 // styled-system's `borderRadius` function can hook into the `radii` object/array
 export const radii = [0, 2, 6]
