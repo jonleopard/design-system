@@ -25,7 +25,7 @@ storiesOf('Color', module).add('Palette', () => (
     <Box p={3}>
       <h1>Color Palette</h1>
     </Box>
-    <Flex flexWrap='wrap'>
+    <Flex flexWrap="wrap">
       {next.map(
         color =>
           !color.key[color.key.length - 1].match(/^\d+$/) ? (

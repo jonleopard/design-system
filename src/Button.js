@@ -49,6 +49,7 @@ const Button = styled.button`
 
   &:disabled {
     opacity: 0.25;
+    cursor: not-allowed;
   }
   &:hover {
     background-color: ${props =>
@@ -56,7 +57,6 @@ const Button = styled.button`
   }
   ${fullWidth} ${size} ${space};
 `
-
 
 const numberStringOrArray = PropTypes.oneOfType([
   PropTypes.number,

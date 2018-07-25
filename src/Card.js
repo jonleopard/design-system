@@ -39,7 +39,6 @@ Card.propTypes = {
   borderWidth: PropTypes.oneOf([1, 2])
 }
 
-
 Card.defaultProps = {
   borderColor: 'borderGray',
   borderRadius: 1,

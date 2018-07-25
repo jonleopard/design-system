@@ -35,4 +35,4 @@ storiesOf('Flex', module)
         Justify
       </Box>
     </Flex>
-))
+  ))

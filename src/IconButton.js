@@ -29,7 +29,7 @@ IconButton.propTypes = {
 }
 
 IconButton.defaultProps = {
-  theme: theme
+  theme
 }
 
 export default IconButton
