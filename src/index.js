@@ -9,6 +9,7 @@ export { default as GreenButton } from "./GreenButton";
 export { default as Heading } from "./Heading";
 export { default as Icon } from "./Icon";
 export { default as IconButton } from "./IconButton";
+export { default as Image } from "./Image";
 export { default as OutlineButton } from "./OutlineButton";
 export { default as RedButton } from "./RedButton";
 export { default as Text } from "./Text";
