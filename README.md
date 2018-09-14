@@ -3,13 +3,13 @@
 ### npm
 
 ```sh
-npm install pcln-design-system
+npm install jonleopard-design-system
 ```
 
 ### yarn
 
 ```sh
-yarn add pcln-design-system
+yarn add jonleopard-design-system
 ```
 
 ## Documentation
