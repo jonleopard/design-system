@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
+    "prepublish": "npm run icons && babel src -d dist --ignore __tests__",
     "start": "start-storybook -p 8000 -c .storybook",
     "storybook": "build-storybook -c .storybook -o _site/storybook",
     "build": "yarn icons && rm -rf _site && build-storybook -c .storybook -o _site",
