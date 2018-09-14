@@ -1,6 +1,6 @@
 {
   "name": "jonleopard-design-system",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
@@ -29,9 +29,9 @@
     "jest-styled-components": "^6.2.0",
     "lint-staged": "^7.2.2",
     "prettier": "^1.14.2",
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0",
-    "react-test-renderer": "^16.5.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-test-renderer": "^16.5.1",
     "recompose": "^0.30.0",
     "storybook-chromatic": "^1.0.2",
     "styled-components": "^3.4.6",
@@ -43,7 +43,7 @@
     "palx": "^1.0.3",
     "prop-types": "^15.6.2",
     "rc-slider": "^8.6.2",
-    "styled-system": "^3.1.0"
+    "styled-system": "^3.1.1"
   },
   "lint-staged": {
     "*.js": [
