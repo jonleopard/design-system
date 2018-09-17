@@ -54,7 +54,7 @@ Text.propTypes = {
 }
 
 Text.defaultProps = {
-  theme: theme
+  theme
 }
 
 Text.span = Text.withComponent('span')
