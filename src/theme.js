@@ -24,7 +24,7 @@ addAliases(mediaQueries, aliases);
 export const space = [0, 4, 8, 16, 32, 64, 128];
 
 const emoji = '"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"';
-export const font = `-apple-system,'Helvetica Neue',BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif,${emoji}`;
+export const font = `-apple-system, system-ui,'Helvetica Neue',BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif,${emoji}`;
 
 export const fontSizes = [12, 14, 16, 20, 24, 32, 40, 56, 72];
 
