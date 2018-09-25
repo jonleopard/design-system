@@ -1,10 +1,10 @@
 import React from 'react'
 import { configure, addDecorator } from '@storybook/react'
-import { injectGlobal } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 import { ThemeProvider, Box } from '../src'
 import 'storybook-chromatic';
 
-injectGlobal([], {
+const GlobalStyle = createGlobalStyle([], {
   '*': {
     boxSizing: 'border-box'
   },

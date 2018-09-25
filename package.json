@@ -1,6 +1,6 @@
 {
   "name": "jonleopard-design-system",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
@@ -34,7 +34,7 @@
     "react-test-renderer": "^16.5.2",
     "recompose": "^0.30.0",
     "storybook-chromatic": "^1.0.2",
-    "styled-components": "^3.4.9",
+    "styled-components": "^4.0.0-beta.9",
     "svgi": "^1.1.0"
   },
   "dependencies": {

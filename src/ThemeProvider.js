@@ -2,13 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled, {
   ThemeProvider as StyledThemeProvider,
-  injectGlobal
+  createGlobalStyle
 } from "styled-components";
 import nextTheme from "./theme";
 
-injectGlobal`body {
-  margin: 0;
-}`;
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+  }
+`;
 
 export const Base = styled.div`
   font-family: ${props => props.theme.font};
