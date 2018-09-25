@@ -4,15 +4,17 @@ import { createGlobalStyle } from "styled-components";
 import { ThemeProvider, Box } from "../src";
 import "storybook-chromatic";
 
-const GlobalStyle = createGlobalStyle([], {
-  "*": {
-    boxSizing: "border-box"
-  },
-  body: {
-    lineHeight: 1.5,
-    margin: 0
+const GlobalStyle = createGlobalStyle`
+  
+  * {
+    box-sizing: border-box;
   }
-});
+
+  body {
+    line-height: 1.5;
+    margin: 0;
+  }
+`;
 
 addDecorator(story => (
   <ThemeProvider>
