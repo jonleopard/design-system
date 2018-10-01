@@ -44,44 +44,44 @@ storiesOf('Box', module)
   ))
   .add('Directional Padding', () => (
     <Box p={3}>
-      <Box m={1} pt={3} color="white" bg="red.5">
+      <Box m={1} pt={3} color="white" bg="error">
         Padding Top
       </Box>
-      <Box m={1} pr={3} color="white" bg="orange.5">
+      <Box m={1} pr={3} color="white" bg="warning">
         Padding Right
       </Box>
-      <Box m={1} pb={3} color="white" bg="lime.5">
+      <Box m={1} pb={3} color="white" bg="success">
         Padding Bottom
       </Box>
-      <Box m={1} pl={3} color="white" bg="teal.5">
+      <Box m={1} pl={3} color="white" bg="base">
         Padding Left
       </Box>
-      <Box m={1} px={3} color="white" bg="blue.5">
+      <Box m={1} px={3} color="white" bg="accent">
         Padding X-Axis
       </Box>
-      <Box m={1} py={3} color="white" bg="violet.5">
+      <Box m={1} py={3} color="white" bg="black">
         Padding Y-Axis
       </Box>
     </Box>
   ))
   .add('Directional Margin', () => (
     <Box p={3}>
-      <Box mt={3} color="slate" bg="red.1">
+      <Box mt={3} color="slate" bg="error">
         Margin Top
       </Box>
-      <Box mr={3} color="slate" bg="orange.1">
+      <Box mr={3} color="slate" bg="warning">
         Margin Right
       </Box>
-      <Box mb={3} color="slate" bg="lime.1">
+      <Box mb={3} color="slate" bg="success">
         Margin Bottom
       </Box>
-      <Box ml={3} color="slate" bg="teal.1">
+      <Box ml={3} color="slate" bg="base">
         Margin Left
       </Box>
-      <Box mx={3} color="slate" bg="blue.1">
+      <Box mx={3} color="slate" bg="accent">
         Margin X-Axis
       </Box>
-      <Box my={3} color="slate" bg="voilet.1">
+      <Box my={3} color="slate" bg="black">
         Margin Y-Axis
       </Box>
     </Box>

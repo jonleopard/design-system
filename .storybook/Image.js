@@ -12,12 +12,12 @@ storiesOf("Image", module)
       text: description,
       inline: true
     })(() => (
-      <Image src="https://www.priceline.com/home/public/assets/images/photos/photo-aruba.jpg" />
+      <Image src="https://source.unsplash.com/random/1280x720" />
     ))
   )
 
   .add("Responsive width, with Box", () => (
     <Box width={1 / 2}>
-      <Image src="https://www.priceline.com/home/public/assets/images/photos/photo-aruba.jpg" />
+      <Image src="https://source.unsplash.com/random/1280x720" />
     </Box>
   ));

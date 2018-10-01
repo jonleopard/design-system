@@ -28,7 +28,7 @@ BackgroundImage.propTypes = {
 }
 
 BackgroundImage.defaultProps = {
-  theme: theme
+  theme
 }
 
 BackgroundImage.displayName = 'BackgroundImage'
