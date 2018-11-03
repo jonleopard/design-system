@@ -3,6 +3,7 @@ import { configure, addDecorator } from "@storybook/react";
 import { ThemeProvider, Box } from "../src";
 import "storybook-chromatic";
 
+
 addDecorator(story => (
   <ThemeProvider>
     <Box p={3}>{story()}</Box>
