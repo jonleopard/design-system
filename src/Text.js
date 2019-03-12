@@ -40,22 +40,22 @@ const Text = styled.div`
 
 Text.displayName = 'Text'
 
-Text.propTypes = {
-  ...propTypes.textStyle,
-  ...propTypes.fontSize,
-  ...propTypes.fontWeight,
-  ...propTypes.textAlign,
-  ...propTypes.lineHeight,
-  ...propTypes.space,
-  ...propTypes.color,
-  caps: PropTypes.bool,
-  regular: PropTypes.bool,
-  bold: PropTypes.bool
-}
+// Text.propTypes = {
+//   ...propTypes.textStyle,
+//   ...propTypes.fontSize,
+//   ...propTypes.fontWeight,
+//   ...propTypes.textAlign,
+//   ...propTypes.lineHeight,
+//   ...propTypes.space,
+//   ...propTypes.color,
+//   caps: PropTypes.bool,
+//   regular: PropTypes.bool,
+//   bold: PropTypes.bool
+// }
 
-Text.defaultProps = {
-  theme
-}
+// Text.defaultProps = {
+//   theme
+// }
 
 Text.span = Text.withComponent('span')
 Text.p = Text.withComponent('p')
