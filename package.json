@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "clean-tag": "^3.1.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "palx": "^1.0.3",
     "prop-types": "^15.7.2",
     "rc-slider": "^8.6.7",
